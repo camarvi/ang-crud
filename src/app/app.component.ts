@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ang-crud';
+  title: string = 'Angular Crud';
+
+  employees= [
+    {name: 'Fazt', position: 'Manager'},
+    {name: 'Isaac', position: 'Designer'},
+    {name: 'Maria', position: 'Programer'}
+  ]
 }
